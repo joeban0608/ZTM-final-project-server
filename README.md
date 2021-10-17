@@ -12,4 +12,6 @@
   1. cd face-recognition-brain-v2
   2. npm install
   3. npm start
-  You must add your own API key in the src/App.js file to connect to Clarifai.　（必須要有自己的Clarifai API)
+  You must add your own API key in the src/App.js file to connect to Clarifai.　（必須要有自己的Clarifai API)  
+api 申請詳見我的blog: [點這裡](https://www.notion.so/Clarifai-API-Updates-Models-and-Troubleshooting-a62619f26fc74ab188d7a74b1ea23226 "title")  
+此章節的完整教學詳見我的blog: [點這裡](https://www.notion.so/ZTM-Final-project-SmartBrain-End-Server-84dbd7987b9841549b70ed35ecff450b "title")
