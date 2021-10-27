@@ -123,7 +123,7 @@ class App extends Component {
             //   entries: count
             //   }
             // })
-            this.setState(Object.assign(this.state.user, {entries: count))
+            this.setState(Object.assign(this.state.user, {entries: count})
             // console.log('userInfo:', this.state.user)
           })
         this.setStateBox(this.calculateFaceLocation(response))
