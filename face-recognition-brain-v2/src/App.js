@@ -120,10 +120,10 @@ class App extends Component {
           .then(response => response.json())
           .then(count => {
             // this.setState({user:{
-            //   entries: count.entries
+            //   entries: count
             //   }
             // })
-            this.setState(Object.assign(this.state.user, {entries: count.entries}))
+            this.setState(Object.assign(this.state.user, {entries: count))
             // console.log('userInfo:', this.state.user)
           })
         this.setStateBox(this.calculateFaceLocation(response))
